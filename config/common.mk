@@ -215,4 +215,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 include vendor/epic/config/version.mk
 
+PRODUCT_PACKAGES += \
+    SettingsIntelligenceGooglePrebuilt
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
