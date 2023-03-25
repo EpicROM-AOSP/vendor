@@ -1,6 +1,7 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product, vendor/epic/config/bootanimation.mk)
+$(call inherit-product-if-exists, vendor/epic/audio/audio.mk)
 
 PRODUCT_BRAND ?= EpicROM
 
