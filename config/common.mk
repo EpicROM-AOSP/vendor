@@ -209,7 +209,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/epic/overlay/no-rro
 
 PRODUCT_PACKAGES += \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    DocumentsUIOverlay 
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/epic/build/target/product/security/epic
