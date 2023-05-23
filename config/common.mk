@@ -218,6 +218,9 @@ include vendor/epic/config/version.mk
 
 PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt
+	
+PRODUCT_PACKAGES += \
+    EpicWallpaperStub	
 
 # Additional props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
